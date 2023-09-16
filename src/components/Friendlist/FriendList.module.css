@@ -5,6 +5,15 @@
   border-radius: 50%;
   margin-right: 8px;
 }
+
+.online {
+  composes: status;
+  background-color: green;
+}
+.offline {
+  composes: status;
+  background-color: rgb(163, 23, 23);
+}
 .friendList {
   list-style: none;
   margin-top: 100px;
@@ -12,11 +21,4 @@
 .name {
   margin-top: 0;
   margin-left: 25px;
-}
-.is-online {
-  background-color: green;
-}
-
-.offline {
-  background-color: rgb(163, 23, 23);
 }
